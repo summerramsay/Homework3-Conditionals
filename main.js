@@ -20,7 +20,7 @@ let birthYear;
 birthYear = prompt("What year were you born?")
 let currentYear = 2022;
 let myAge = currentYear - birthYear
-alert("I am " + myAge + " years old")
+//alert("I am " + myAge + " years old")
 if(myAge > 21) {
     alert("You are old enough to drink in the US")
 } else if(myAge === 21) {
